@@ -322,178 +322,182 @@
         border-radius: 40px;
     }
 
-}
+    .reviews-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 500px);
+        grid-gap: 150px;
+        justify-content: center;
+        padding: 50px;
+    }
 
-.reviews-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 500px);
-    grid-gap: 150px;
-    justify-content: center;
-    padding: 50px;
-}
+    .trusted-text {
+        text-align: center;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 47.73px;
+    }
 
-.trusted-text {
-    text-align: center;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 47.73px;
-}
+    .review-container {
+        border-radius: 30px;
+        text-align: center;
+        background-color: rgba(196, 196, 196, 0.1);
 
-.review-container {
-    border-radius: 30px;
-    text-align: center;
-    background-color: rgba(196, 196, 196, 0.1);
+    }
 
-}
+    .review-container,
+    .para-one {
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 30px;
+        text-align: justify;
+        padding: 30px;
+    }
 
-.review-container,
-.para-one {
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 30px;
-    text-align: justify;
-    padding: 30px;
-}
+    .star-review {
+        justify-content: center;
+        text-align: center;
+    }
 
-.star-review {
-    justify-content: center;
-    text-align: center;
-}
+    .shield-vpn-title {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: center;
 
-.shield-vpn-title {
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    justify-content: center;
+    }
 
-}
+    .shield-vpn-title,
+    .heading-title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47.73px;
+    }
 
-.shield-vpn-title,
-.heading-title {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47.73px;
-}
+    .shield-vpn-feature-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 150px;
+        padding: 100px;
+    }
 
-.shield-vpn-feature-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 150px;
-    padding: 100px;
-}
+    .vpn-feature-container {
+        justify-content: center;
+        text-align: center;
 
-.vpn-feature-container {
-    justify-content: center;
-    text-align: center;
+    }
 
-}
+    .vpn-feature-container p {
 
-.vpn-feature-container p {
+        justify-content: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+    }
 
-    justify-content: center;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-}
+    .vpn-feature-container h1 {
+        color: #00204E;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
 
-.vpn-feature-container h1 {
-    color: #00204E;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-}
+    .save-offer-vpn-title {
+        text-align: center;
+        padding: 70px;
+    }
 
-.save-offer-vpn-title {
-    text-align: center;
-    padding: 70px;
-}
+    .save-offer-vpn-title h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47.73px;
+        color: #00204E;
 
-.save-offer-vpn-title h1 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47.73px;
-    color: #00204E;
+    }
 
-}
+    .subscription-package-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 450px);
+        text-align: center;
+        grid-gap: 120px;
+        justify-content: center;
+        position: relative;
 
-.subscription-package-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 450px);
-    text-align: center;
-    grid-gap: 120px;
-    justify-content: center;
-    position: relative;
+    }
 
-}
+    .subscription-package-grid h3 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28.64px;
+        color: #383838;
+    }
 
-.subscription-package-grid h3 {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28.64px;
-    color: #383838;
-}
+    .subscription-package-grid h1 {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 57.28px;
+        color: #0166F6;
 
-.subscription-package-grid h1 {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 57.28px;
-    color: #0166F6;
+    }
 
-}
+    .subscription-package-grid p {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        color: #383838;
 
-.subscription-package-grid p {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 24px;
-    color: #383838;
+    }
 
-}
+    .offer-box {
+        background-color: rgba(1, 102, 246, 0.05);
+        border-radius: 30px;
+        padding: 50px;
+        height: 350px;
 
-.offer-box {
-    background-color: rgba(1, 102, 246, 0.05);
-    border-radius: 30px;
-    padding: 50px;
-    height: 350px;
+    }
 
-}
+    .hot-deal {
+        right: -61px;
+        top: 27px;
+        position: absolute;
 
-.hot-deal {
-    right: -61px;
-    top: 27px;
-    position: absolute;
+    }
 
-}
+    .position {
+        position: relative;
+        border: 3px solid #0166F6;
+    }
 
-.position {
-    position: relative;
-    border: 3px solid #0166F6;
-}
+    .hot-deal-para {
+        right: -17px;
+        top: 47px;
+        position: absolute;
+        transform: rotate(-20deg);
+        color: #D3D3D3;
 
-.hot-deal-para {
-    right: -17px;
-    top: 47px;
-    position: absolute;
-    transform: rotate(-20deg);
-    color: #D3D3D3;
+    }
 
-}
+    .hot-deal-para span {
+        font-weight: 500 !important;
+        color: #FFFFFF !important;
+        font-size: 30px !important;
+        line-height: 42.96px !important;
 
-.hot-deal-para span {
-    font-weight: 500 !important;
-    color: #FFFFFF !important;
-    font-size: 30px !important;
-    line-height: 42.96px !important;
+    }
 
-}
+    footer {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.64px;
+        padding: 60px;
+        margin-top: 13px;
 
-footer {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28.64px;
-    padding: 60px;
-    margin-top: 13px;
-}
+    }
+
+
+    /* ghfighfighfidghighfiug */
+
+
 
 
 }
